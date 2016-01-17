@@ -8,10 +8,6 @@ import javafx.scene.shape.Circle;
 public class Vue {
 
 		
-		//private Command cmdStart;
-		//private Command cmdStop;
-		//private Command cmdIncr;
-		//private Command cmdDec;
 		
 		@FXML
 		private TextField temps;
@@ -31,42 +27,28 @@ public class Vue {
 		
 		@FXML
 		private void onStart(ActionEvent e){
-			//if(cmdStart != null){
-				//cmdStart.execute();
-			//}
-			//MainApp.getController().start();
-			//Materiel.getEmetteurSonore().emettreClic();
-			//Materiel.getAfficheur().allumerLed(1);
+			
 		}
 
 		@FXML
 		private void onStop(ActionEvent e){
-			//if(cmdStop != null){
-				//cmdStop.execute();
-			//}
-			//MainApp.getController().stop();
+		
 		}
 		
 		@FXML
 		private void onDec(ActionEvent e){
-			//if(cmdDec != null){
-				//cmdDec.execute();
-			//}
-			//MainApp.getController().decMesure();
+			
 		}
 		
 		@FXML
 		private void onInc(ActionEvent e){
-			/*if(cmdIncr != null){
-				cmdIncr.execute();
-			}*/
-			//MainApp.getController().incMesure();
+			
 		}
 		
 		@FXML
 		private void onSliderChanged(MouseEvent e){
 			
-			//MainApp.getController().updateTempo();
+			
 		}
 
 		
@@ -110,25 +92,5 @@ public class Vue {
 		public void setSlider(Slider slider) {
 			this.slider = slider;
 		}
-/*
-		public void setCmdStart(Command cmdStart) {
-			this.cmdStart = cmdStart;
-		}
-
-		public void setCmdStop(Command cmdStop) {
-			this.cmdStop = cmdStop;
-		}
-
-		public void setCmdIncr(Command cmdIncr) {
-			this.cmdIncr = cmdIncr;
-		}
-
-		public void setCmdDec(Command cmdDec) {
-			this.cmdDec = cmdDec;
-		}
-
-		
-
-	}
-	*/	
+	
 }
